@@ -28,127 +28,241 @@ DB_TRHUATMOS(0, "2052f790-d2d7-4cf7-95f0-4de478e98d28");
 DB_TRHUATMOS(2, "363be3c3-12f8-48f4-99bd-5717354b3135");
 DB_TRHUATMOS(3, "226b3246-1c3c-4b10-8aa2-e094779fdd14");
 
-DB_Monsters(1, CHARACTERGUID_ARX_Demon_Fence_004_6df86db4-f3e7-436f-be4c-da1139c106f3);
-DB_Monsters(2, CHARACTERGUID_ARX_Elves_Female_Armor_003_d8ab0ef3-8282-4cf8-acec-b4eb90b496e8);
-DB_Monsters(3, CHARACTERGUID_ARX_Elves_Male_Armor_000_5a94d5ab-96ca-4ab4-854c-e6430ec43e7a);
-DB_Monsters(4, CHARACTERGUID_ARX_Lizards_Male_Civilian_001_63b86737-1248-44b3-a51b-a4f3a76664e3);
-DB_Monsters(5, CHARACTERGUID_ARX_Sewers_SpiderSpawn_000_2d87bf1d-a7c6-450f-9904-6ce88129580b);
-DB_Monsters(6, CHARACTERGUID_ARX_WindUpToy_TheDoctor_003_a0602da6-8b91-4219-ad18-a0f3d9fe21ca);
-DB_Monsters(7, CHARACTERGUID_Animals_Bear_A_Voidwoken_001_ff3c44bb-5012-4522-99d1-505ae19538d0);
-DB_Monsters(8, CHARACTERGUID_Animals_Beetle_A_Fire_001_8a9d381b-1dc5-4acd-8ed6-660ac1968cd9);
-DB_Monsters(9, CHARACTERGUID_Animals_Beetle_A_Green_002_eee00aeb-8496-487e-b0f3-f71b58bd7e3d);
-DB_Monsters(10, CHARACTERGUID_Animals_Birds_Condor_A_003_b1661339-bc62-4b02-ad97-1da9afaa9771);
-DB_Monsters(12, CHARACTERGUID_Animals_Boar_A_Void_A_003_50ba8170-c63b-4335-ba59-0d4c18f58dcc);
-DB_Monsters(13, CHARACTERGUID_Animals_Crocodile_Sea_A_004_24bc4ca4-e047-49af-b71c-688b393af322);
-DB_Monsters(14, CHARACTERGUID_Animals_Frog_A_Giant_000_f702add7-4fc7-4892-ba86-4445b8c3a202);
-DB_Monsters(15, CHARACTERGUID_Animals_Frog_Merman_A_000_3e88f31a-24d7-4a7e-98a6-643439f8b360);
-DB_Monsters(16, CHARACTERGUID_Animals_Frog_Merman_A_Giant_002_593486d5-31f2-4a3b-9fc1-2c3f8014c761);
-DB_Monsters(17, CHARACTERGUID_Animals_Salamander_A_Fire_000_da2db86e-1638-4a0b-86e5-0c3a2f7a1eab);
-DB_Monsters(18, CHARACTERGUID_Animals_Salamander_A_Poison_000_c0828071-b053-434f-9b33-c7fc4ba1985d);
-DB_Monsters(19, CHARACTERGUID_Animals_Salamander_A_Polymorph_000_e34c3e21-f73c-4517-b07c-f06803c96552);
-DB_Monsters(20, CHARACTERGUID_Animals_Salamander_A_Voidwoken_000_c569e1df-e60b-47e6-b6f8-840635fbb56b);
-DB_Monsters(11, CHARACTERGUID_Animals_Spider_A_000_1cc13ce9-142d-4584-bea0-26f33683d2dc);
-DB_Monsters(22, CHARACTERGUID_Animals_Spider_B_000_6861bb6b-4346-48e6-9846-910eae070c1f);
-DB_Monsters(23, CHARACTERGUID_Animals_Spider_C_000_b29337b2-8f28-434a-905e-497ec6665be5);
-DB_Monsters(24, CHARACTERGUID_Animals_Tiger_A_Blood_A_000_8d88bc51-e08e-46b6-a804-f67fe0156ea8);
-DB_Monsters(25, CHARACTERGUID_Animals_Tiger_A_Enhanced_A_000_5e222a0c-625b-4edf-9cd3-9e7e4319fa49);
-DB_Monsters(26, CHARACTERGUID_Animals_Turtle_A_000_3483c7dc-817a-4004-a52a-8a9b61d78f12);
-DB_Monsters(27, CHARACTERGUID_Animals_Turtle_A_Poison_000_fb3cca20-bf37-4721-bad6-3fa200a24485);
-DB_Monsters(28, CHARACTERGUID_Animals_Turtle_A_Voidwoken_000_37cfebb4-1075-4719-8871-e0ddf6666fbe);
-DB_Monsters(29, CHARACTERGUID_Creatures_Burning_Witch_A_000_e4b1a1a9-013e-4c23-864e-d073a8a795d8);
-DB_Monsters(30, CHARACTERGUID_Creatures_Demon_Grunt_A_000_8247d857-a474-4cfb-92eb-a2cbd291622c);
-DB_Monsters(31, CHARACTERGUID_Creatures_Demon_Grunt_A_Melee_000_db61b6b8-b099-403b-9ec0-fc3257ee0428);
-DB_Monsters(32, CHARACTERGUID_Creatures_Demon_Grunt_A_Ranger_000_ff28ce10-4cc7-4919-b85f-2347ed918c91);
-DB_Monsters(33, CHARACTERGUID_Creatures_Demon_Grunt_A_Summon_000_fddd1b8c-5538-43f0-a456-bd15d1cdccc1);
-DB_Monsters(34, CHARACTERGUID_Creatures_Demon_Hound_A_000_91181937-4823-4d75-96d1-f8ac29b0c695);
-DB_Monsters(35, CHARACTERGUID_Creatures_Demon_Hound_A_Summon_000_86387d9c-84cd-4dd7-9d8f-8c0f17f60130);
-DB_Monsters(36, CHARACTERGUID_Creatures_Dragons_A_000_3c044001-9a7d-4fdd-bc53-750f4757137c);
-DB_Monsters(37, CHARACTERGUID_Creatures_Dragons_B_000_3559041c-3c2e-4646-97a0-b3583b5fd082);
-DB_Monsters(38, CHARACTERGUID_Creatures_Dragons_Young_A_000_02769729-f4e4-4d54-bc95-1e6b4e6026be);
-DB_Monsters(39, CHARACTERGUID_Creatures_Elemental_A_Fire_000_4d376bd6-9176-45f3-a4c6-549f99978669);
-DB_Monsters(40, CHARACTERGUID_Creatures_Elemental_A_Ooze_000_43f8ce4c-cbee-421a-ad9d-a371893ee2b5);
-DB_Monsters(41, CHARACTERGUID_Creatures_Elemental_A_Ooze_Flesh_000_6bdd1888-fdc9-4228-90cc-a1143187b0e4);
-DB_Monsters(42, CHARACTERGUID_Creatures_Elemental_A_Water_000_aaf403a8-b03e-4bf2-bf71-a6654254e9e9);
-DB_Monsters(43, CHARACTERGUID_Creatures_Elemental_Blood_Heart_A_000_a8ccfd3f-cc65-46f3-b9d6-62bfa6c78920);
-DB_Monsters(44, CHARACTERGUID_Creatures_FleshGolem_A_000_e5db7c7e-561e-429c-9887-107d2ce94462);
-DB_Monsters(45, CHARACTERGUID_Creatures_FleshGolem_A_Leather_000_421de455-0add-47a9-850e-d0537a4ab550);
-DB_Monsters(46, CHARACTERGUID_Creatures_FleshGolem_A_Platemail_000_49a43002-ccec-4397-90eb-7713653eeb4f);
-DB_Monsters(47, CHARACTERGUID_Creatures_FleshGolem_B_000_f57991fb-92ec-403a-8f59-1f4aa34a4db1);
-DB_Monsters(48, CHARACTERGUID_Creatures_FleshGolem_C_000_fdbf9433-dd08-4d14-9d82-012c5e61315c);
-DB_Monsters(49, CHARACTERGUID_Creatures_GiantInsect_A_NoWings_000_13e45cac-8648-4f09-86ad-16435528e2cc);
-DB_Monsters(50, CHARACTERGUID_Creatures_GiantInsect_A_Wings_000_849315da-b51b-43d7-ad84-94454ec8d0bc);
-DB_Monsters(51, CHARACTERGUID_Creatures_GiantInsect_B_NoWings_000_0f380333-8d72-4881-a436-e2798c6d011b);
-DB_Monsters(52, CHARACTERGUID_Creatures_GiantInsect_B_Wings_000_94ab5464-022f-450d-9e05-590959eddb09);
-DB_Monsters(53, CHARACTERGUID_Creatures_GiantInsect_C_Wings_000_c42d3694-36bd-4e73-a6a3-9f0863948292);
-DB_Monsters(54, CHARACTERGUID_Creatures_Goblins_Grunt_A_000_4c6f95d5-4d09-4a7d-aeb4-b8c735429f88);
-DB_Monsters(55, CHARACTERGUID_Creatures_Goblins_Ranger_A_000_37b0df23-4995-460f-bdc7-e44d8eb588be);
-DB_Monsters(56, CHARACTERGUID_Creatures_Molespitter_A_000_b7ce9e2c-2ade-4b6c-93c2-575693002ce2);
-DB_Monsters(57, CHARACTERGUID_Creatures_Molespitter_B_000_72586665-0692-402f-b624-2c9c9c64d240);
-DB_Monsters(58, CHARACTERGUID_Creatures_Molespitter_C_000_d3fa5391-4a63-48e1-8968-f5ed05648587);
-DB_Monsters(59, CHARACTERGUID_Creatures_Nightmare_A_000_1430d66f-edaf-4b13-86db-306a385dbf50);
-DB_Monsters(60, CHARACTERGUID_Creatures_Purged_Paincaster_A_000_786b7eff-e039-4f62-bb93-23ae89e7f3cf);
-DB_Monsters(61, CHARACTERGUID_Creatures_Raanaar_Automaton_A_000_182f01a5-a2aa-4423-8c3b-c87c1c4d4b96);
-DB_Monsters(62, CHARACTERGUID_Creatures_Raanaar_Automaton_B_000_618697f8-9389-4f40-995c-da3cb40e1daa);
-DB_Monsters(63, CHARACTERGUID_Creatures_Raanaar_Automaton_C_000_cb3b5e61-09c1-4ffb-b1ed-699984b64d49);
-DB_Monsters(64, CHARACTERGUID_Creatures_Raanaar_Hound_A_000_b35f309a-2b5d-44a6-bf57-16de0b83c90b);
-DB_Monsters(65, CHARACTERGUID_Creatures_Raanaar_Titan_A_000_c7482d52-f230-4f3a-b221-38c2a867a5c2);
-DB_Monsters(66, CHARACTERGUID_Creatures_ShamblingMound_Brute_A_000_4ea451f5-583e-48a7-93af-e3d4ec081af2);
-DB_Monsters(67, CHARACTERGUID_Creatures_ShamblingMound_FlowerBig_A_000_bdf2a0fc-8fb8-4eac-a91a-4993af353db9);
-DB_Monsters(68, CHARACTERGUID_Creatures_ShamblingMound_Ranger_A_000_6910dcaf-c491-40e7-bbac-dbf50ac88dca);
-DB_Monsters(69, CHARACTERGUID_Creatures_ShamblingMound_Grunt_A_000_72ffac6a-381c-4170-b0f2-219cd229a4bc);
-DB_Monsters(70, CHARACTERGUID_Creatures_Slug_A_Fire_000_0c9d3fc4-b1ab-478e-965e-0ac63952498c);
-DB_Monsters(71, CHARACTERGUID_Creatures_SwallowMan_A_000_efb067bc-3ad2-4dd5-acad-7f9b3d45dda6);
-DB_Monsters(72, CHARACTERGUID_Creatures_Terracotta_Crypt_Gardian_A_000_94076004-a18f-46f8-8512-ab8ab7994563);
-DB_Monsters(73, CHARACTERGUID_Creatures_Terracotta_Crypt_Gardian_B_000_4ad3bc35-b5dd-4c39-b191-6ef360ac9791);
-DB_Monsters(74, CHARACTERGUID_Creatures_Terracotta_Crypt_Gardian_C_000_b3f908c1-1378-4c7a-9847-ab600487af1f);
-DB_Monsters(75, CHARACTERGUID_Creatures_Troll_A_000_d6078a6e-c727-407f-9cd7-cdb2cf6be7cc);
-DB_Monsters(76, CHARACTERGUID_Creatures_Troll_B_000_f5ea9e97-a4a0-4ec6-844e-5caf9bb38d9a);
-DB_Monsters(77, CHARACTERGUID_Creatures_Undead_Bonepile_Hand_A_000_29a35bde-3f12-478b-afad-936a6a801263);
-DB_Monsters(78, CHARACTERGUID_Creatures_Undead_Bonepile_Spider_A_000_94269315-cb72-458f-a701-08e2b8779390);
-DB_Monsters(79, CHARACTERGUID_Creatures_Undead_Bonepile_Troll_A_000_ba133ffa-369c-4ccd-8ad5-bb14c69df442);
-DB_Monsters(80, CHARACTERGUID_Creatures_Undead_Scarecrow_A_000_7e8c5131-2abc-4b70-a335-e75a3ec1cdcc);
-DB_Monsters(81, CHARACTERGUID_Creatures_Undead_Scarecrow_B_000_aa739d86-604b-4a15-a1e6-becac19f4e87);
-DB_Monsters(82, CHARACTERGUID_Creatures_Undead_ZombieCrawler_A_000_87551c73-9ad4-4400-9601-4123a622222f);
-DB_Monsters(83, CHARACTERGUID_Creatures_Undead_ZombieCrawler_B_000_e6f31448-8f05-4ce3-8e0a-72d86098f54a);
-//DB_Monsters(84, CHARACTERGUID_Creatures_Undead_Zombie_A_000_1fc70100-db95-42bb-b512-645d079dd34d);
-//DB_Monsters(85, CHARACTERGUID_Creatures_Undead_Zombie_B_000_cc50b854-811a-48fa-9fd6-de9d9960721e);
-//DB_Monsters(86, CHARACTERGUID_Creatures_Undead_Zombie_C_000_a801cdc6-c673-4e1a-8c57-85332cfac93f);
-DB_Monsters(87, CHARACTERGUID_Creatures_Undead_Zombie_Electrified_000_18e2337b-4310-41af-901e-cce4c3ee4ea7);
-DB_Monsters(88, CHARACTERGUID_Creatures_VampireBat_A_000_f4f54612-ffa6-495e-8710-b0511759694e);
-DB_Monsters(89, CHARACTERGUID_Creatures_VampireBat_B_000_97ace873-dfe1-4d7a-8c2a-4c68983f03cb);
-DB_Monsters(90, CHARACTERGUID_Creatures_Voidwoken_Caster_000_eca6dd16-520b-46fa-91ef-2833c056c98b);
-DB_Monsters(91, CHARACTERGUID_Creatures_Voidwoken_Caster_Ice_000_447b53a6-bb01-4857-9fde-cff7d0e9b43f);
-DB_Monsters(92, CHARACTERGUID_Creatures_Voidwoken_GiantInsect_Dominator_A_000_588fd4cd-5bb0-4e46-b5a1-b85cb86cde91);
-DB_Monsters(93, CHARACTERGUID_Creatures_Voidwoken_Grunt_A_000_cd270517-b5bb-449a-96da-1fe43bf493b6);
-DB_Monsters(94, CHARACTERGUID_Creatures_Voidwoken_Grunt_A_Ice_000_1cba17da-2454-46ee-8238-48686eb38f0a);
-DB_Monsters(95, CHARACTERGUID_Creatures_Voidwoken_Merman_A_000_ae3ad3e9-1830-47d2-a4cd-546026a55f65);
-DB_Monsters(96, CHARACTERGUID_Creatures_Voidwoken_Spider_A_000_8570dc33-00e7-46c2-a5cd-3b0629482d1f);
-DB_Monsters(97, CHARACTERGUID_Creatures_Voidwoken_Spider_A_Poison_000_1d12f2ab-497b-4cbf-baed-e4e2599f39b0);
-DB_Monsters(98, CHARACTERGUID_Creatures_Voidwoken_Troll_A_000_78e17708-8dd4-488c-8a13-32bcdd844be6);
-DB_Monsters(99, CHARACTERGUID_Creatures_Voidwoken_Troll_A_Ice_000_f35f597b-3a37-4884-8d72-4af813b3b07b);
-DB_Monsters(100, CHARACTERGUID_Creatures_WarOwl_A_000_22399dcc-1dc5-47f1-ba2d-3546f2590b84);
-DB_Monsters(101, CHARACTERGUID_Dwarves_Female_Armor_000_83aab4a5-d4e6-4bc2-9630-e79a27e59931);
-DB_Monsters(102, CHARACTERGUID_Dwarves_Female_Mage_000_ce63d2d7-4e8c-483b-9013-cb48c02ffb5e);
-DB_Monsters(103, CHARACTERGUID_Dwarves_Female_Skeleton_Mage_A_000_87e2e895-62c0-428a-b69c-dcbdda552c78);
-DB_Monsters(104, CHARACTERGUID_Dwarves_Male_Mage_000_f0db530b-2a95-434c-852c-8d4425f020c3);
-DB_Monsters(105, CHARACTERGUID_Elves_Female_Armor_000_11743975-cd05-44a4-aaf4-48fd1c710017);
-DB_Monsters(106, CHARACTERGUID_Elves_Female_Armor_Mage_000_b3bda9ea-2783-40a2-aec3-c4774cf5cbfb);
-DB_Monsters(107, CHARACTERGUID_Elves_Male_Armor_000_b151ae7d-9532-4bd3-9a79-de6c72b50cf3);
-DB_Monsters(108, CHARACTERGUID_Elves_Male_Armor_Mage_000_1280423e-7471-48d2-96f3-17e94d76b6c7);
-DB_Monsters(109, CHARACTERGUID_GameMaster_Blackring_Tough_Necromancer_000_9f0426ce-931b-4b70-b7bb-ea32a23a8aeb);
-DB_Monsters(110, CHARACTERGUID_GameMaster_Dragons_Tough_Dark_000_09a71858-604f-4d46-bcfb-012fdf8d9aa2);
-DB_Monsters(111, CHARACTERGUID_Humans_Female_Armor_000_88032356-806e-4929-847b-a6d610612b84);
-DB_Monsters(112, CHARACTERGUID_Humans_Female_Armor_Blackring_A_000_79b688e5-cce2-406f-ad76-58ab2ac387c6);
-DB_Monsters(113, CHARACTERGUID_Humans_Female_Armor_Mage_000_5df621d8-f1a2-4b55-a0af-b4418d66c4c3);
-DB_Monsters(114, CHARACTERGUID_Humans_Female_Blackring_Witch_A_000_befe467f-9fd4-476d-963c-6efe6ebaa428);
-DB_Monsters(115, CHARACTERGUID_Humans_Female_Paladin_000_8bb7d172-e70a-47a4-b74a-a9d802f92baa);
-DB_Monsters(116, CHARACTERGUID_Humans_Female_RedFaction_Ranger_000_009a542d-caa2-4aef-ad34-c2467edd23a8);
-DB_Monsters(117, CHARACTERGUID_Humans_Female_Redfaction_Inquisitor_A_000_9a10a43b-e143-4df5-82a2-bc4ea3587acb);
-DB_Monsters(118, CHARACTERGUID_Humans_Female_Redfaction_Plague_000_c039017e-3b81-444d-94a0-03a572dd8263);
-DB_Monsters(119, CHARACTERGUID_Humans_Female_Redfaction_Priest_000_a7cdf937-7617-4a3c-8242-753fb7d48794);
-DB_Monsters(120, CHARACTERGUID_Humans_Female_Skeleton_Ataraxian_A_000_3885559b-fc1f-4022-a10e-3353074c244a);
+DB_Monsters(	1	,	CHARACTERGUID_Humans_Female_RedFaction_Ranger_000_009a542d-caa2-4aef-ad34-c2467edd23a8	);
+DB_Monsters(	2	,	CHARACTERGUID_Creatures_Dragons_Young_A_000_02769729-f4e4-4d54-bc95-1e6b4e6026be	);
+DB_Monsters(	3	,	CHARACTERGUID_Creatures_Slug_A_Fire_000_0c9d3fc4-b1ab-478e-965e-0ac63952498c	);
+DB_Monsters(	4	,	CHARACTERGUID_Creatures_GiantInsect_B_NoWings_000_0f380333-8d72-4881-a436-e2798c6d011b	);
+DB_Monsters(	5	,	CHARACTERGUID_Elves_Female_Armor_000_11743975-cd05-44a4-aaf4-48fd1c710017	);
+DB_Monsters(	6	,	CHARACTERGUID_Elves_Male_Armor_Mage_000_1280423e-7471-48d2-96f3-17e94d76b6c7	);
+DB_Monsters(	7	,	CHARACTERGUID_Creatures_GiantInsect_A_NoWings_000_13e45cac-8648-4f09-86ad-16435528e2cc	);
+DB_Monsters(	8	,	CHARACTERGUID_Creatures_Nightmare_A_000_1430d66f-edaf-4b13-86db-306a385dbf50	);
+DB_Monsters(	9	,	CHARACTERGUID_Creatures_Raanaar_Automaton_A_000_182f01a5-a2aa-4423-8c3b-c87c1c4d4b96	);
+DB_Monsters(	10	,	CHARACTERGUID_Creatures_Voidwoken_Grunt_A_Ice_000_1cba17da-2454-46ee-8238-48686eb38f0a	);
+DB_Monsters(	11	,	CHARACTERGUID_Animals_Spider_A_000_1cc13ce9-142d-4584-bea0-26f33683d2dc	);
+DB_Monsters(	12	,	CHARACTERGUID_Creatures_Voidwoken_Spider_A_Poison_000_1d12f2ab-497b-4cbf-baed-e4e2599f39b0	);
+DB_Monsters(	13	,	CHARACTERGUID_Creatures_Undead_Zombie_A_000_1fc70100-db95-42bb-b512-645d079dd34d	);
+DB_Monsters(	14	,	CHARACTERGUID_Creatures_WarOwl_A_000_22399dcc-1dc5-47f1-ba2d-3546f2590b84	);
+DB_Monsters(	15	,	CHARACTERGUID_Animals_Crocodile_Sea_A_004_24bc4ca4-e047-49af-b71c-688b393af322	);
+DB_Monsters(	16	,	CHARACTERGUID_Creatures_Undead_Bonepile_Hand_A_000_29a35bde-3f12-478b-afad-936a6a801263	);
+DB_Monsters(	17	,	CHARACTERGUID_ARX_Sewers_SpiderSpawn_000_2d87bf1d-a7c6-450f-9904-6ce88129580b	);
+DB_Monsters(	18	,	CHARACTERGUID_Animals_Turtle_A_000_3483c7dc-817a-4004-a52a-8a9b61d78f12	);
+DB_Monsters(	19	,	CHARACTERGUID_Creatures_Goblins_Ranger_A_000_37b0df23-4995-460f-bdc7-e44d8eb588be	);
+DB_Monsters(	20	,	CHARACTERGUID_Animals_Turtle_A_Voidwoken_000_37cfebb4-1075-4719-8871-e0ddf6666fbe	);
+DB_Monsters(	21	,	CHARACTERGUID_Humans_Female_Skeleton_Ataraxian_A_000_3885559b-fc1f-4022-a10e-3353074c244a	);
+DB_Monsters(	22	,	CHARACTERGUID_Animals_Frog_Merman_A_000_3e88f31a-24d7-4a7e-98a6-643439f8b360	);
+DB_Monsters(	23	,	CHARACTERGUID_Creatures_FleshGolem_A_Leather_000_421de455-0add-47a9-850e-d0537a4ab550	);
+DB_Monsters(	24	,	CHARACTERGUID_Creatures_Elemental_A_Ooze_000_43f8ce4c-cbee-421a-ad9d-a371893ee2b5	);
+DB_Monsters(	25	,	CHARACTERGUID_Creatures_Voidwoken_Caster_Ice_000_447b53a6-bb01-4857-9fde-cff7d0e9b43f	);
+DB_Monsters(	26	,	CHARACTERGUID_Creatures_FleshGolem_A_Platemail_000_49a43002-ccec-4397-90eb-7713653eeb4f	);
+DB_Monsters(	27	,	CHARACTERGUID_Creatures_Terracotta_Crypt_Gardian_B_000_4ad3bc35-b5dd-4c39-b191-6ef360ac9791	);
+DB_Monsters(	28	,	CHARACTERGUID_Creatures_Goblins_Grunt_A_000_4c6f95d5-4d09-4a7d-aeb4-b8c735429f88	);
+DB_Monsters(	29	,	CHARACTERGUID_Creatures_Elemental_A_Fire_000_4d376bd6-9176-45f3-a4c6-549f99978669	);
+DB_Monsters(	30	,	CHARACTERGUID_Creatures_ShamblingMound_Brute_A_000_4ea451f5-583e-48a7-93af-e3d4ec081af2	);
+DB_Monsters(	31	,	CHARACTERGUID_Animals_Boar_A_Void_A_003_50ba8170-c63b-4335-ba59-0d4c18f58dcc	);
+DB_Monsters(	32	,	CHARACTERGUID_Creatures_Voidwoken_GiantInsect_Dominator_A_000_588fd4cd-5bb0-4e46-b5a1-b85cb86cde91	);
+DB_Monsters(	33	,	CHARACTERGUID_Animals_Frog_Merman_A_Giant_002_593486d5-31f2-4a3b-9fc1-2c3f8014c761	);
+DB_Monsters(	34	,	CHARACTERGUID_ARX_Elves_Male_Armor_000_5a94d5ab-96ca-4ab4-854c-e6430ec43e7a	);
+DB_Monsters(	35	,	CHARACTERGUID_Humans_Female_Armor_Mage_000_5df621d8-f1a2-4b55-a0af-b4418d66c4c3	);
+DB_Monsters(	36	,	CHARACTERGUID_Animals_Tiger_A_Enhanced_A_000_5e222a0c-625b-4edf-9cd3-9e7e4319fa49	);
+DB_Monsters(	37	,	CHARACTERGUID_Creatures_Raanaar_Automaton_B_000_618697f8-9389-4f40-995c-da3cb40e1daa	);
+DB_Monsters(	38	,	CHARACTERGUID_ARX_Lizards_Male_Civilian_001_63b86737-1248-44b3-a51b-a4f3a76664e3	);
+DB_Monsters(	39	,	CHARACTERGUID_Animals_Spider_B_000_6861bb6b-4346-48e6-9846-910eae070c1f	);
+DB_Monsters(	40	,	CHARACTERGUID_Creatures_ShamblingMound_Ranger_A_000_6910dcaf-c491-40e7-bbac-dbf50ac88dca	);
+DB_Monsters(	41	,	CHARACTERGUID_Creatures_Elemental_A_Ooze_Flesh_000_6bdd1888-fdc9-4228-90cc-a1143187b0e4	);
+DB_Monsters(	42	,	CHARACTERGUID_ARX_Demon_Fence_004_6df86db4-f3e7-436f-be4c-da1139c106f3	);
+DB_Monsters(	43	,	CHARACTERGUID_Creatures_Molespitter_B_000_72586665-0692-402f-b624-2c9c9c64d240	);
+DB_Monsters(	44	,	CHARACTERGUID_Creatures_ShamblingMound_Grunt_A_000_72ffac6a-381c-4170-b0f2-219cd229a4bc	);
+DB_Monsters(	45	,	CHARACTERGUID_Creatures_Purged_Paincaster_A_000_786b7eff-e039-4f62-bb93-23ae89e7f3cf	);
+DB_Monsters(	46	,	CHARACTERGUID_Creatures_Voidwoken_Troll_A_000_78e17708-8dd4-488c-8a13-32bcdd844be6	);
+DB_Monsters(	47	,	CHARACTERGUID_Humans_Female_Armor_Blackring_A_000_79b688e5-cce2-406f-ad76-58ab2ac387c6	);
+DB_Monsters(	48	,	CHARACTERGUID_Creatures_Undead_Scarecrow_A_000_7e8c5131-2abc-4b70-a335-e75a3ec1cdcc	);
+DB_Monsters(	49	,	CHARACTERGUID_Creatures_Demon_Grunt_A_000_8247d857-a474-4cfb-92eb-a2cbd291622c	);
+DB_Monsters(	50	,	CHARACTERGUID_Dwarves_Female_Armor_000_83aab4a5-d4e6-4bc2-9630-e79a27e59931	);
+DB_Monsters(	51	,	CHARACTERGUID_Creatures_GiantInsect_A_Wings_000_849315da-b51b-43d7-ad84-94454ec8d0bc	);
+DB_Monsters(	52	,	CHARACTERGUID_Creatures_Voidwoken_Spider_A_000_8570dc33-00e7-46c2-a5cd-3b0629482d1f	);
+DB_Monsters(	53	,	CHARACTERGUID_Creatures_Demon_Hound_A_Summon_000_86387d9c-84cd-4dd7-9d8f-8c0f17f60130	);
+DB_Monsters(	54	,	CHARACTERGUID_Creatures_Undead_ZombieCrawler_A_000_87551c73-9ad4-4400-9601-4123a622222f	);
+DB_Monsters(	55	,	CHARACTERGUID_Dwarves_Female_Skeleton_Mage_A_000_87e2e895-62c0-428a-b69c-dcbdda552c78	);
+DB_Monsters(	56	,	CHARACTERGUID_Humans_Female_Armor_000_88032356-806e-4929-847b-a6d610612b84	);
+DB_Monsters(	57	,	CHARACTERGUID_Animals_Beetle_A_Fire_001_8a9d381b-1dc5-4acd-8ed6-660ac1968cd9	);
+DB_Monsters(	58	,	CHARACTERGUID_Humans_Female_Paladin_000_8bb7d172-e70a-47a4-b74a-a9d802f92baa	);
+DB_Monsters(	59	,	CHARACTERGUID_Animals_Tiger_A_Blood_A_000_8d88bc51-e08e-46b6-a804-f67fe0156ea8	);
+DB_Monsters(	60	,	CHARACTERGUID_Creatures_Demon_Hound_A_000_91181937-4823-4d75-96d1-f8ac29b0c695	);
+DB_Monsters(	61	,	CHARACTERGUID_Creatures_Terracotta_Crypt_Gardian_A_000_94076004-a18f-46f8-8512-ab8ab7994563	);
+DB_Monsters(	62	,	CHARACTERGUID_Creatures_Undead_Bonepile_Spider_A_000_94269315-cb72-458f-a701-08e2b8779390	);
+DB_Monsters(	63	,	CHARACTERGUID_Creatures_GiantInsect_B_Wings_000_94ab5464-022f-450d-9e05-590959eddb09	);
+DB_Monsters(	64	,	CHARACTERGUID_Creatures_VampireBat_B_000_97ace873-dfe1-4d7a-8c2a-4c68983f03cb	);
+DB_Monsters(	65	,	CHARACTERGUID_Humans_Female_Redfaction_Inquisitor_A_000_9a10a43b-e143-4df5-82a2-bc4ea3587acb	);
+DB_Monsters(	66	,	CHARACTERGUID_GameMaster_Blackring_Tough_Necromancer_000_9f0426ce-931b-4b70-b7bb-ea32a23a8aeb	);
+DB_Monsters(	67	,	CHARACTERGUID_ARX_WindUpToy_TheDoctor_003_a0602da6-8b91-4219-ad18-a0f3d9fe21ca	);
+DB_Monsters(	68	,	CHARACTERGUID_Humans_Female_Redfaction_Priest_000_a7cdf937-7617-4a3c-8242-753fb7d48794	);
+DB_Monsters(	69	,	CHARACTERGUID_Creatures_Undead_Zombie_C_000_a801cdc6-c673-4e1a-8c57-85332cfac93f	);
+DB_Monsters(	70	,	CHARACTERGUID_Creatures_Elemental_Blood_Heart_A_000_a8ccfd3f-cc65-46f3-b9d6-62bfa6c78920	);
+DB_Monsters(	71	,	CHARACTERGUID_Creatures_Undead_Scarecrow_B_000_aa739d86-604b-4a15-a1e6-becac19f4e87	);
+DB_Monsters(	72	,	CHARACTERGUID_Creatures_Elemental_A_Water_000_aaf403a8-b03e-4bf2-bf71-a6654254e9e9	);
+DB_Monsters(	73	,	CHARACTERGUID_Creatures_Voidwoken_Merman_A_000_ae3ad3e9-1830-47d2-a4cd-546026a55f65	);
+DB_Monsters(	74	,	CHARACTERGUID_Elves_Male_Armor_000_b151ae7d-9532-4bd3-9a79-de6c72b50cf3	);
+DB_Monsters(	75	,	CHARACTERGUID_Animals_Birds_Condor_A_003_b1661339-bc62-4b02-ad97-1da9afaa9771	);
+DB_Monsters(	76	,	CHARACTERGUID_Animals_Spider_C_000_b29337b2-8f28-434a-905e-497ec6665be5	);
+DB_Monsters(	77	,	CHARACTERGUID_Creatures_Raanaar_Hound_A_000_b35f309a-2b5d-44a6-bf57-16de0b83c90b	);
+DB_Monsters(	78	,	CHARACTERGUID_Elves_Female_Armor_Mage_000_b3bda9ea-2783-40a2-aec3-c4774cf5cbfb	);
+DB_Monsters(	79	,	CHARACTERGUID_Creatures_Terracotta_Crypt_Gardian_C_000_b3f908c1-1378-4c7a-9847-ab600487af1f	);
+DB_Monsters(	80	,	CHARACTERGUID_Creatures_Molespitter_A_000_b7ce9e2c-2ade-4b6c-93c2-575693002ce2	);
+DB_Monsters(	81	,	CHARACTERGUID_Creatures_Undead_Bonepile_Troll_A_000_ba133ffa-369c-4ccd-8ad5-bb14c69df442	);
+DB_Monsters(	82	,	CHARACTERGUID_Creatures_ShamblingMound_FlowerBig_A_000_bdf2a0fc-8fb8-4eac-a91a-4993af353db9	);
+DB_Monsters(	83	,	CHARACTERGUID_Humans_Female_Blackring_Witch_A_000_befe467f-9fd4-476d-963c-6efe6ebaa428	);
+DB_Monsters(	84	,	CHARACTERGUID_Humans_Female_Redfaction_Plague_000_c039017e-3b81-444d-94a0-03a572dd8263	);
+DB_Monsters(	85	,	CHARACTERGUID_Animals_Salamander_A_Poison_000_c0828071-b053-434f-9b33-c7fc4ba1985d	);
+DB_Monsters(	86	,	CHARACTERGUID_Creatures_GiantInsect_C_Wings_000_c42d3694-36bd-4e73-a6a3-9f0863948292	);
+DB_Monsters(	87	,	CHARACTERGUID_Animals_Salamander_A_Voidwoken_000_c569e1df-e60b-47e6-b6f8-840635fbb56b	);
+DB_Monsters(	88	,	CHARACTERGUID_Creatures_Raanaar_Titan_A_000_c7482d52-f230-4f3a-b221-38c2a867a5c2	);
+DB_Monsters(	89	,	CHARACTERGUID_Creatures_Raanaar_Automaton_C_000_cb3b5e61-09c1-4ffb-b1ed-699984b64d49	);
+DB_Monsters(	90	,	CHARACTERGUID_Creatures_Undead_Zombie_B_000_cc50b854-811a-48fa-9fd6-de9d9960721e	);
+DB_Monsters(	91	,	CHARACTERGUID_Creatures_Voidwoken_Grunt_A_000_cd270517-b5bb-449a-96da-1fe43bf493b6	);
+DB_Monsters(	92	,	CHARACTERGUID_Dwarves_Female_Mage_000_ce63d2d7-4e8c-483b-9013-cb48c02ffb5e	);
+DB_Monsters(	93	,	CHARACTERGUID_Creatures_Molespitter_C_000_d3fa5391-4a63-48e1-8968-f5ed05648587	);
+DB_Monsters(	94	,	CHARACTERGUID_Creatures_Troll_A_000_d6078a6e-c727-407f-9cd7-cdb2cf6be7cc	);
+DB_Monsters(	95	,	CHARACTERGUID_ARX_Elves_Female_Armor_003_d8ab0ef3-8282-4cf8-acec-b4eb90b496e8	);
+DB_Monsters(	96	,	CHARACTERGUID_Animals_Salamander_A_Fire_000_da2db86e-1638-4a0b-86e5-0c3a2f7a1eab	);
+DB_Monsters(	97	,	CHARACTERGUID_Creatures_Demon_Grunt_A_Melee_000_db61b6b8-b099-403b-9ec0-fc3257ee0428	);
+DB_Monsters(	98	,	CHARACTERGUID_Animals_Salamander_A_Polymorph_000_e34c3e21-f73c-4517-b07c-f06803c96552	);
+DB_Monsters(	99	,	CHARACTERGUID_Creatures_Burning_Witch_A_000_e4b1a1a9-013e-4c23-864e-d073a8a795d8	);
+DB_Monsters(	100	,	CHARACTERGUID_Creatures_FleshGolem_A_000_e5db7c7e-561e-429c-9887-107d2ce94462	);
+DB_Monsters(	101	,	CHARACTERGUID_Creatures_Undead_ZombieCrawler_B_000_e6f31448-8f05-4ce3-8e0a-72d86098f54a	);
+DB_Monsters(	102	,	CHARACTERGUID_Creatures_Voidwoken_Caster_000_eca6dd16-520b-46fa-91ef-2833c056c98b	);
+DB_Monsters(	103	,	CHARACTERGUID_Animals_Beetle_A_Green_002_eee00aeb-8496-487e-b0f3-f71b58bd7e3d	);
+DB_Monsters(	104	,	CHARACTERGUID_Creatures_SwallowMan_A_000_efb067bc-3ad2-4dd5-acad-7f9b3d45dda6	);
+DB_Monsters(	105	,	CHARACTERGUID_Dwarves_Male_Mage_000_f0db530b-2a95-434c-852c-8d4425f020c3	);
+DB_Monsters(	106	,	CHARACTERGUID_Creatures_Voidwoken_Troll_A_Ice_000_f35f597b-3a37-4884-8d72-4af813b3b07b	);
+DB_Monsters(	107	,	CHARACTERGUID_Creatures_VampireBat_A_000_f4f54612-ffa6-495e-8710-b0511759694e	);
+DB_Monsters(	108	,	CHARACTERGUID_Creatures_FleshGolem_B_000_f57991fb-92ec-403a-8f59-1f4aa34a4db1	);
+DB_Monsters(	109	,	CHARACTERGUID_Creatures_Troll_B_000_f5ea9e97-a4a0-4ec6-844e-5caf9bb38d9a	);
+DB_Monsters(	110	,	CHARACTERGUID_Animals_Frog_A_Giant_000_f702add7-4fc7-4892-ba86-4445b8c3a202	);
+DB_Monsters(	111	,	CHARACTERGUID_Animals_Turtle_A_Poison_000_fb3cca20-bf37-4721-bad6-3fa200a24485	);
+DB_Monsters(	112	,	CHARACTERGUID_Creatures_FleshGolem_C_000_fdbf9433-dd08-4d14-9d82-012c5e61315c	);
+DB_Monsters(	113	,	CHARACTERGUID_Creatures_Demon_Grunt_A_Summon_000_fddd1b8c-5538-43f0-a456-bd15d1cdccc1	);
+DB_Monsters(	114	,	CHARACTERGUID_Creatures_Demon_Grunt_A_Ranger_000_ff28ce10-4cc7-4919-b85f-2347ed918c91	);
+DB_Monsters(	0	,	CHARACTERGUID_Animals_Bear_A_Voidwoken_001_ff3c44bb-5012-4522-99d1-505ae19538d0	);
 
 
+/*
+DB_Monsters(0, CHARACTERGUID_Humans_Female_RedFaction_Ranger_000_009a542d-caa2-4aef-ad34-c2467edd23a8
+DB_Monsters(1, CHARACTERGUID_Creatures_Dragons_Young_A_000_02769729-f4e4-4d54-bc95-1e6b4e6026be
+DB_Monsters(2, CHARACTERGUID_Creatures_Slug_A_Fire_000_0c9d3fc4-b1ab-478e-965e-0ac63952498c
+DB_Monsters(4, DB_Monsters(3, CHARACTERGUID_Creatures_GiantInsect_B_NoWings_000_0f380333-8d72-4881-a436-e2798c6d011b
+DB_Monsters(5, CHARACTERGUID_Elves_Female_Armor_000_11743975-cd05-44a4-aaf4-48fd1c710017
+DB_Monsters(6, CHARACTERGUID_Elves_Male_Armor_Mage_000_1280423e-7471-48d2-96f3-17e94d76b6c7
+DB_Monsters(7, CHARACTERGUID_Creatures_GiantInsect_A_NoWings_000_13e45cac-8648-4f09-86ad-16435528e2cc
+DB_Monsters(8, CHARACTERGUID_Creatures_Nightmare_A_000_1430d66f-edaf-4b13-86db-306a385dbf50
+DB_Monsters(9, CHARACTERGUID_Creatures_Raanaar_Automaton_A_000_182f01a5-a2aa-4423-8c3b-c87c1c4d4b96
+DB_Monsters(10, CHARACTERGUID_Creatures_Voidwoken_Grunt_A_Ice_000_1cba17da-2454-46ee-8238-48686eb38f0a
+DB_Monsters(11, CHARACTERGUID_Animals_Spider_A_000_1cc13ce9-142d-4584-bea0-26f33683d2dc
+DB_Monsters(12, CHARACTERGUID_Creatures_Voidwoken_Spider_A_Poison_000_1d12f2ab-497b-4cbf-baed-e4e2599f39b0
+DB_Monsters(13, CHARACTERGUID_Creatures_Undead_Zombie_A_000_1fc70100-db95-42bb-b512-645d079dd34d
+DB_Monsters(14, CHARACTERGUID_Creatures_WarOwl_A_000_22399dcc-1dc5-47f1-ba2d-3546f2590b84
+DB_Monsters(15, CHARACTERGUID_Animals_Crocodile_Sea_A_004_24bc4ca4-e047-49af-b71c-688b393af322
+DB_Monsters(CHARACTERGUID_Creatures_Undead_Bonepile_Hand_A_000_29a35bde-3f12-478b-afad-936a6a801263
+DB_Monsters(CHARACTERGUID_ARX_Sewers_SpiderSpawn_000_2d87bf1d-a7c6-450f-9904-6ce88129580b
+DB_Monsters(CHARACTERGUID_Animals_Turtle_A_000_3483c7dc-817a-4004-a52a-8a9b61d78f12
+DB_Monsters(CHARACTERGUID_Creatures_Goblins_Ranger_A_000_37b0df23-4995-460f-bdc7-e44d8eb588be
+DB_Monsters(CHARACTERGUID_Animals_Turtle_A_Voidwoken_000_37cfebb4-1075-4719-8871-e0ddf6666fbe
+DB_Monsters(CHARACTERGUID_Humans_Female_Skeleton_Ataraxian_A_000_3885559b-fc1f-4022-a10e-3353074c244a
+DB_Monsters(CHARACTERGUID_Animals_Frog_Merman_A_000_3e88f31a-24d7-4a7e-98a6-643439f8b360
+DB_Monsters(CHARACTERGUID_Creatures_FleshGolem_A_Leather_000_421de455-0add-47a9-850e-d0537a4ab550
+DB_Monsters(CHARACTERGUID_Creatures_Elemental_A_Ooze_000_43f8ce4c-cbee-421a-ad9d-a371893ee2b5
+DB_Monsters(CHARACTERGUID_Creatures_Voidwoken_Caster_Ice_000_447b53a6-bb01-4857-9fde-cff7d0e9b43f
+DB_Monsters(CHARACTERGUID_Creatures_FleshGolem_A_Platemail_000_49a43002-ccec-4397-90eb-7713653eeb4f
+DB_Monsters(CHARACTERGUID_Creatures_Terracotta_Crypt_Gardian_B_000_4ad3bc35-b5dd-4c39-b191-6ef360ac9791
+DB_Monsters(CHARACTERGUID_Creatures_Goblins_Grunt_A_000_4c6f95d5-4d09-4a7d-aeb4-b8c735429f88
+DB_Monsters(CHARACTERGUID_Creatures_Elemental_A_Fire_000_4d376bd6-9176-45f3-a4c6-549f99978669
+DB_Monsters(CHARACTERGUID_Creatures_ShamblingMound_Brute_A_000_4ea451f5-583e-48a7-93af-e3d4ec081af2
+DB_Monsters(CHARACTERGUID_Animals_Boar_A_Void_A_003_50ba8170-c63b-4335-ba59-0d4c18f58dcc
+DB_Monsters(CHARACTERGUID_Creatures_Voidwoken_GiantInsect_Dominator_A_000_588fd4cd-5bb0-4e46-b5a1-b85cb86cde91
+DB_Monsters(CHARACTERGUID_Animals_Frog_Merman_A_Giant_002_593486d5-31f2-4a3b-9fc1-2c3f8014c761
+DB_Monsters(CHARACTERGUID_ARX_Elves_Male_Armor_000_5a94d5ab-96ca-4ab4-854c-e6430ec43e7a
+DB_Monsters(CHARACTERGUID_Humans_Female_Armor_Mage_000_5df621d8-f1a2-4b55-a0af-b4418d66c4c3
+DB_Monsters(CHARACTERGUID_Animals_Tiger_A_Enhanced_A_000_5e222a0c-625b-4edf-9cd3-9e7e4319fa49
+DB_Monsters(CHARACTERGUID_Creatures_Raanaar_Automaton_B_000_618697f8-9389-4f40-995c-da3cb40e1daa
+DB_Monsters(CHARACTERGUID_ARX_Lizards_Male_Civilian_001_63b86737-1248-44b3-a51b-a4f3a76664e3
+DB_Monsters(CHARACTERGUID_Animals_Spider_B_000_6861bb6b-4346-48e6-9846-910eae070c1f
+DB_Monsters(CHARACTERGUID_Creatures_ShamblingMound_Ranger_A_000_6910dcaf-c491-40e7-bbac-dbf50ac88dca
+DB_Monsters(CHARACTERGUID_Creatures_Elemental_A_Ooze_Flesh_000_6bdd1888-fdc9-4228-90cc-a1143187b0e4
+DB_Monsters(CHARACTERGUID_ARX_Demon_Fence_004_6df86db4-f3e7-436f-be4c-da1139c106f3
+DB_Monsters(CHARACTERGUID_Creatures_Molespitter_B_000_72586665-0692-402f-b624-2c9c9c64d240
+DB_Monsters(CHARACTERGUID_Creatures_ShamblingMound_Grunt_A_000_72ffac6a-381c-4170-b0f2-219cd229a4bc
+DB_Monsters(CHARACTERGUID_Creatures_Purged_Paincaster_A_000_786b7eff-e039-4f62-bb93-23ae89e7f3cf
+DB_Monsters(CHARACTERGUID_Creatures_Voidwoken_Troll_A_000_78e17708-8dd4-488c-8a13-32bcdd844be6
+DB_Monsters(CHARACTERGUID_Humans_Female_Armor_Blackring_A_000_79b688e5-cce2-406f-ad76-58ab2ac387c6
+DB_Monsters(CHARACTERGUID_Creatures_Undead_Scarecrow_A_000_7e8c5131-2abc-4b70-a335-e75a3ec1cdcc
+DB_Monsters(CHARACTERGUID_Creatures_Demon_Grunt_A_000_8247d857-a474-4cfb-92eb-a2cbd291622c
+DB_Monsters(CHARACTERGUID_Dwarves_Female_Armor_000_83aab4a5-d4e6-4bc2-9630-e79a27e59931
+CHARACTERGUID_Creatures_GiantInsect_A_Wings_000_849315da-b51b-43d7-ad84-94454ec8d0bc
+CHARACTERGUID_Creatures_Voidwoken_Spider_A_000_8570dc33-00e7-46c2-a5cd-3b0629482d1f
+CHARACTERGUID_Creatures_Demon_Hound_A_Summon_000_86387d9c-84cd-4dd7-9d8f-8c0f17f60130
+CHARACTERGUID_Creatures_Undead_ZombieCrawler_A_000_87551c73-9ad4-4400-9601-4123a622222f
+CHARACTERGUID_Dwarves_Female_Skeleton_Mage_A_000_87e2e895-62c0-428a-b69c-dcbdda552c78
+CHARACTERGUID_Humans_Female_Armor_000_88032356-806e-4929-847b-a6d610612b84
+CHARACTERGUID_Animals_Beetle_A_Fire_001_8a9d381b-1dc5-4acd-8ed6-660ac1968cd9
+CHARACTERGUID_Humans_Female_Paladin_000_8bb7d172-e70a-47a4-b74a-a9d802f92baa
+CHARACTERGUID_Animals_Tiger_A_Blood_A_000_8d88bc51-e08e-46b6-a804-f67fe0156ea8
+CHARACTERGUID_Creatures_Demon_Hound_A_000_91181937-4823-4d75-96d1-f8ac29b0c695
+CHARACTERGUID_Creatures_Terracotta_Crypt_Gardian_A_000_94076004-a18f-46f8-8512-ab8ab7994563
+CHARACTERGUID_Creatures_Undead_Bonepile_Spider_A_000_94269315-cb72-458f-a701-08e2b8779390
+CHARACTERGUID_Creatures_GiantInsect_B_Wings_000_94ab5464-022f-450d-9e05-590959eddb09
+CHARACTERGUID_Creatures_VampireBat_B_000_97ace873-dfe1-4d7a-8c2a-4c68983f03cb
+CHARACTERGUID_Humans_Female_Redfaction_Inquisitor_A_000_9a10a43b-e143-4df5-82a2-bc4ea3587acb
+CHARACTERGUID_GameMaster_Blackring_Tough_Necromancer_000_9f0426ce-931b-4b70-b7bb-ea32a23a8aeb
+CHARACTERGUID_ARX_WindUpToy_TheDoctor_003_a0602da6-8b91-4219-ad18-a0f3d9fe21ca
+CHARACTERGUID_Humans_Female_Redfaction_Priest_000_a7cdf937-7617-4a3c-8242-753fb7d48794
+CHARACTERGUID_Creatures_Undead_Zombie_C_000_a801cdc6-c673-4e1a-8c57-85332cfac93f
+CHARACTERGUID_Creatures_Elemental_Blood_Heart_A_000_a8ccfd3f-cc65-46f3-b9d6-62bfa6c78920
+CHARACTERGUID_Creatures_Undead_Scarecrow_B_000_aa739d86-604b-4a15-a1e6-becac19f4e87
+CHARACTERGUID_Creatures_Elemental_A_Water_000_aaf403a8-b03e-4bf2-bf71-a6654254e9e9
+CHARACTERGUID_Creatures_Voidwoken_Merman_A_000_ae3ad3e9-1830-47d2-a4cd-546026a55f65
+CHARACTERGUID_Elves_Male_Armor_000_b151ae7d-9532-4bd3-9a79-de6c72b50cf3
+CHARACTERGUID_Animals_Birds_Condor_A_003_b1661339-bc62-4b02-ad97-1da9afaa9771
+CHARACTERGUID_Animals_Spider_C_000_b29337b2-8f28-434a-905e-497ec6665be5
+CHARACTERGUID_Creatures_Raanaar_Hound_A_000_b35f309a-2b5d-44a6-bf57-16de0b83c90b
+CHARACTERGUID_Elves_Female_Armor_Mage_000_b3bda9ea-2783-40a2-aec3-c4774cf5cbfb
+CHARACTERGUID_Creatures_Terracotta_Crypt_Gardian_C_000_b3f908c1-1378-4c7a-9847-ab600487af1f
+CHARACTERGUID_Creatures_Molespitter_A_000_b7ce9e2c-2ade-4b6c-93c2-575693002ce2
+CHARACTERGUID_Creatures_Undead_Bonepile_Troll_A_000_ba133ffa-369c-4ccd-8ad5-bb14c69df442
+CHARACTERGUID_Creatures_ShamblingMound_FlowerBig_A_000_bdf2a0fc-8fb8-4eac-a91a-4993af353db9
+CHARACTERGUID_Humans_Female_Blackring_Witch_A_000_befe467f-9fd4-476d-963c-6efe6ebaa428
+CHARACTERGUID_Humans_Female_Redfaction_Plague_000_c039017e-3b81-444d-94a0-03a572dd8263
+CHARACTERGUID_Animals_Salamander_A_Poison_000_c0828071-b053-434f-9b33-c7fc4ba1985d
+CHARACTERGUID_Creatures_GiantInsect_C_Wings_000_c42d3694-36bd-4e73-a6a3-9f0863948292
+CHARACTERGUID_Animals_Salamander_A_Voidwoken_000_c569e1df-e60b-47e6-b6f8-840635fbb56b
+CHARACTERGUID_Creatures_Raanaar_Titan_A_000_c7482d52-f230-4f3a-b221-38c2a867a5c2
+CHARACTERGUID_Creatures_Raanaar_Automaton_C_000_cb3b5e61-09c1-4ffb-b1ed-699984b64d49
+CHARACTERGUID_Creatures_Undead_Zombie_B_000_cc50b854-811a-48fa-9fd6-de9d9960721e
+CHARACTERGUID_Creatures_Voidwoken_Grunt_A_000_cd270517-b5bb-449a-96da-1fe43bf493b6
+CHARACTERGUID_Dwarves_Female_Mage_000_ce63d2d7-4e8c-483b-9013-cb48c02ffb5e
+CHARACTERGUID_Creatures_Molespitter_C_000_d3fa5391-4a63-48e1-8968-f5ed05648587
+CHARACTERGUID_Creatures_Troll_A_000_d6078a6e-c727-407f-9cd7-cdb2cf6be7cc
+CHARACTERGUID_ARX_Elves_Female_Armor_003_d8ab0ef3-8282-4cf8-acec-b4eb90b496e8
+CHARACTERGUID_Animals_Salamander_A_Fire_000_da2db86e-1638-4a0b-86e5-0c3a2f7a1eab
+CHARACTERGUID_Creatures_Demon_Grunt_A_Melee_000_db61b6b8-b099-403b-9ec0-fc3257ee0428
+CHARACTERGUID_Animals_Salamander_A_Polymorph_000_e34c3e21-f73c-4517-b07c-f06803c96552
+CHARACTERGUID_Creatures_Burning_Witch_A_000_e4b1a1a9-013e-4c23-864e-d073a8a795d8
+CHARACTERGUID_Creatures_FleshGolem_A_000_e5db7c7e-561e-429c-9887-107d2ce94462
+CHARACTERGUID_Creatures_Undead_ZombieCrawler_B_000_e6f31448-8f05-4ce3-8e0a-72d86098f54a
+CHARACTERGUID_Creatures_Voidwoken_Caster_000_eca6dd16-520b-46fa-91ef-2833c056c98b
+CHARACTERGUID_Animals_Beetle_A_Green_002_eee00aeb-8496-487e-b0f3-f71b58bd7e3d
+CHARACTERGUID_Creatures_SwallowMan_A_000_efb067bc-3ad2-4dd5-acad-7f9b3d45dda6
+CHARACTERGUID_Dwarves_Male_Mage_000_f0db530b-2a95-434c-852c-8d4425f020c3
+CHARACTERGUID_Creatures_Voidwoken_Troll_A_Ice_000_f35f597b-3a37-4884-8d72-4af813b3b07b
+CHARACTERGUID_Creatures_VampireBat_A_000_f4f54612-ffa6-495e-8710-b0511759694e
+CHARACTERGUID_Creatures_FleshGolem_B_000_f57991fb-92ec-403a-8f59-1f4aa34a4db1
+CHARACTERGUID_Creatures_Troll_B_000_f5ea9e97-a4a0-4ec6-844e-5caf9bb38d9a
+CHARACTERGUID_Animals_Frog_A_Giant_000_f702add7-4fc7-4892-ba86-4445b8c3a202
+CHARACTERGUID_Animals_Turtle_A_Poison_000_fb3cca20-bf37-4721-bad6-3fa200a24485
+CHARACTERGUID_Creatures_FleshGolem_C_000_fdbf9433-dd08-4d14-9d82-012c5e61315c
+CHARACTERGUID_Creatures_Demon_Grunt_A_Summon_000_fddd1b8c-5538-43f0-a456-bd15d1cdccc1
+CHARACTERGUID_Creatures_Demon_Grunt_A_Ranger_000_ff28ce10-4cc7-4919-b85f-2347ed918c91
+CHARACTERGUID_Animals_Bear_A_Voidwoken_001_ff3c44bb-5012-4522-99d1-505ae19538d0
+
+*/
 DB_MonstersToFight(250, S_GLO_CharacterCreationDummy_003_dded8c22-b28e-45c1-a074-eb0954602c8a);
 
 
