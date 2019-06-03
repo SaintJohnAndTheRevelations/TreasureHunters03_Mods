@@ -1,0 +1,16 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+
+KBSECTION
+PROC
+PROC_FreezeCharacters()
+AND
+DB_IsPlayer(_character)
+THEN
+ApplyStatus(_character, "STUNNED", 16.0, 1, _character);
+CharacterFreeze(_character);
+EXITSECTION
+
+ENDEXITSECTION
+ParentTargetEdge "TrainingBowl"

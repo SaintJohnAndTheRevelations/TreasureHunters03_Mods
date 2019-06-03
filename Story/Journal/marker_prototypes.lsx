@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<save>
+    <header version="2" />
+    <version major="3" minor="6" revision="3" build="1" />
+    <region id="Markers">
+        <node id="root">
+            <children>
+                <node id="Marker">
+                    <attribute id="DisplayText" value="" handle="ls::TranslatedStringRepository::s_HandleUnknown" type="28" />
+                    <attribute id="MarkerBroadcast" value="Party" type="22" />
+                    <attribute id="MarkerID" value="MonsterGenerator" type="22" />
+                    <attribute id="MarkerIcon" value="QuestMarker" type="22" />
+                    <attribute id="MarkerLevel" value="TrainingBowl" type="22" />
+                    <attribute id="MarkerTargetObjectType" value="Item" type="22" />
+                    <attribute id="MarkerTargetObjectUUID" value="28a86e9c-82b9-44a5-9b41-5075ce3aaf3b" type="22" />
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

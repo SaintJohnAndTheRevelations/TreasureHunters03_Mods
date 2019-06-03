@@ -1,0 +1,19 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+
+KBSECTION
+PROC
+PROC_MakeTreasureChest()
+AND
+GlobalGetFlag("MADETREASURECHEST", 0)
+AND
+GetVarObject(ITEMGUID_PUZ_Lever_Floor_B_000_8b7bcbee-89b3-4a73-b5d5-0045a84d2a01, "StartPoint", (TRIGGERGUID)_monsterStartPoint)
+THEN
+ItemCreateAtTrigger(_monsterStartPoint, "ITEMGUID_TRHU_WinnerChest_e91cb2a9-b7e9-48d7-af9d-6e6069e8303a");
+GlobalSetFlag("MADETREASURECHEST");
+
+EXITSECTION
+
+ENDEXITSECTION
+ParentTargetEdge "TrainingBowl"

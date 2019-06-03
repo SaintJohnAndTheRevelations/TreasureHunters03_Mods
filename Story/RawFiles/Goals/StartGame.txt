@@ -1,0 +1,39 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+DB_QuestDef_State("Welcome", "Started", 1);
+
+/*
+DB_TRHUATMOS(1, ATMOSPHERERESOURCEGUID_ATM_PBR_Default_EvenMoreSmallScale_Rain_B_CS_4b5655e4-8d71-4c1b-8cef-6ad27f0120fc);
+DB_TRHUATMOS(0, ATMOSPHERERESOURCEGUID_ATM_PBR_Default_EvenMoreSmallScale_Desert_A_Windy_2052f790-d2d7-4cf7-95f0-4de478e98d28);
+DB_TRHUATMOS(2, ATMOSPHERERESOURCEGUID_Dark_363be3c3-12f8-48f4-99bd-5717354b3135);
+DB_TRHUATMOS(3, ATMOSPHERERESOURCEGUID_TrainingBowlStartAtmosphere_226b3246-1c3c-4b10-8aa2-e094779fdd14);
+*/
+DB_TRHUATMOS(1, "4b5655e4-8d71-4c1b-8cef-6ad27f0120fc");
+DB_TRHUATMOS(0, "2052f790-d2d7-4cf7-95f0-4de478e98d28");
+DB_TRHUATMOS(2, "363be3c3-12f8-48f4-99bd-5717354b3135");
+DB_TRHUATMOS(3, "226b3246-1c3c-4b10-8aa2-e094779fdd14");
+KBSECTION
+IF
+CharacterLeftTrigger(_character, StartGameEventTrigger_eff69f5c-775a-4ed4-afad-ee64f2cf911b)
+AND
+DB_IsPlayer(_character)
+AND
+ObjectGetFlag(_character, "STARTEDGAME", 0)
+THEN
+SetFaction(_character, "Hero");
+Proc_StartDialog(0, "StartGame", _character, NULL_00000000-0000-0000-0000-000000000000);
+ObjectSetFlag(_character, "STARTEDGAME");
+ObjectSetFlag(_character, "QuestUpdate_Welcome_Started");
+
+
+IF
+CharacterUsedItemTemplate(_character, "TRHU_ToShoppePyramid_914ce768-d53f-4402-a469-097e9f856f2c", _item)
+AND
+CharacterIsInCombat(_character, 0)
+THEN
+TeleportTo(_character, ShoppeTeleportTrigger_db782715-7b3c-4ac6-8bd5-0fcba196cefc, "", 1, 0, 0);
+EXITSECTION
+
+ENDEXITSECTION
+ParentTargetEdge "TrainingBowl"

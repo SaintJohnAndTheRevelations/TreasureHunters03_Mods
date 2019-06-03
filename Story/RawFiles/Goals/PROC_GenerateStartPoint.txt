@@ -1,0 +1,17 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+
+KBSECTION
+PROC
+PROC_GenerateStartPoint()
+AND
+Random(4, _monsterStartPointIndex)
+AND
+DB_MonsterStartPoints(_monsterStartPointIndex, _monsterStartPoint)
+THEN
+SetVarObject(ITEMGUID_PUZ_Lever_Floor_B_000_8b7bcbee-89b3-4a73-b5d5-0045a84d2a01, "StartPoint", (GUIDSTRING)_monsterStartPoint);
+EXITSECTION
+
+ENDEXITSECTION
+ParentTargetEdge "TrainingBowl"

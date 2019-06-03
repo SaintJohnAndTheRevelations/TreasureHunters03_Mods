@@ -1,0 +1,1 @@
+DB_UsedMonsters 1SysCount 2DB_TreasureChests 2DB_CharacterCreationTransitionInfo 2DB_Origins 0DB_TreasureChestStartPoint 0DB_TreasureChestStartPoint 1DB_ApplyPreset 2

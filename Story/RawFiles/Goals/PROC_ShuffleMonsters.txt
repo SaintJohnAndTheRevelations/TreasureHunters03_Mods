@@ -1,0 +1,24 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+
+KBSECTION
+PROC
+PROC_ShuffleMonsters()
+AND
+DB_Monsters(_index, _monster)
+AND
+NOT DB_MonstersToFight(_, _monster)
+AND
+SysCount("DB_Monsters", 2, _monsterCount)
+AND
+IntegerSubtract(_monsterCount, 1, _indexDBToFight)
+AND
+IntegertoString(_monsterCount, _ugh)
+THEN
+DB_MonstersToFight(_indexDBToFight, _monster);
+NOT DB_Monsters(_index, _monster);
+EXITSECTION
+
+ENDEXITSECTION
+ParentTargetEdge "TrainingBowl"

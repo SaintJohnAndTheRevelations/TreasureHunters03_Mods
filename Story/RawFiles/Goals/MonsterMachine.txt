@@ -1,0 +1,91 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+
+KBSECTION
+IF
+CharacterUsedItem(_character, ITEMGUID_PUZ_Lever_Floor_B_000_8b7bcbee-89b3-4a73-b5d5-0045a84d2a01)
+AND
+CharacterGetLevel(_character, _level)
+AND
+IntegerProduct(_level, 25, _exp)
+THEN
+//PROC_ChooseAtmosphere();
+PROC_ShuffleMonsters();
+PROC_GenerateStartPoint();
+PROC_ResetMonsterDB();
+PROC_FreezeCharacters();
+TimerLaunch("MAKEMONSTERS", 2000);
+DisplayText(_character, "What do we have for entertainment?");
+PartyAddExperience(_character, 1, 1, _exp);
+GlobalClearFlag("MADETREASURECHEST");
+
+
+IF
+TimerFinished("MAKEMONSTERS")
+THEN
+PROC_GenerateMonster(SpawnOneTriggerPoint_cb5ae29a-2761-4004-ab52-8fcfc71f0381);
+PROC_GenerateMonster(SpawnTwoTriggerPoint_8266b237-b945-4f1c-8d3f-202f8090932b);
+PROC_GenerateMonster(SpawnThreeTriggerPoint_b193414d-ae21-4c1c-a7f6-019500a89278);
+PROC_GenerateMonster(SpawnFourTriggerPoint_fa8d3ea6-aaf6-44dc-bb5c-7fab104c4c0e);
+
+IF
+TimerFinished("MONSTERFREEZE")
+AND
+DB_FrozenMonsters(_monster)
+AND
+DB_IsPlayer(_character)
+AND
+GetVarObject(ITEMGUID_PUZ_Lever_Floor_B_000_8b7bcbee-89b3-4a73-b5d5-0045a84d2a01, "StartPoint", _monsterStartPoint)
+THEN
+CharacterMoveTo(_monster, (TRIGGERGUID)_monsterStartPoint, 1, "", 1);
+SysClear("DB_MonstersToFight", 2);
+DB_UsedMonsters(_monster);
+NOT DB_FrozenMonsters(_monster);
+CharacterUnfreeze(_monster);
+PROC_MakeTreasureChest();
+
+IF
+TimerFinished("UNFREEZECHARACTERS")
+AND
+DB_IsPlayer(_character)
+AND
+DB_UsedMonsters(_monster)
+THEN
+CharacterUnfreeze(_character);
+SetFaction((CHARACTERGUID)_monster, "Evil NPC");
+
+
+IF
+CharacterDied(_character)
+AND
+DB_UsedMonsters(_character)
+THEN
+NOT DB_UsedMonsters(_character);
+SetOnStage(_character, 0);
+CharacterResurrectAndResetXPReward(_character);
+RemoveStatus(_character, "STUNNED");
+
+
+//Shoppe Wall
+IF
+CharacterEnteredTrigger(_character, TRIGGERGUID_ShopDoorEventTrigger_5408fac7-95b3-40af-9fd3-b826093cc99b)
+AND
+DB_IsPlayer(_character)
+AND
+Query_CharacterIsAliveAndNotInCombat(_character)
+THEN
+SetOnStage(ITEMGUID_RS3_FX_ST_MagicWall_01_Source_WithPhysics_000_7c324bf3-86ec-4af8-a4fb-51bac3906454, 0);
+
+IF
+CharacterLeftTrigger(_character, TRIGGERGUID_ShopDoorEventTrigger_5408fac7-95b3-40af-9fd3-b826093cc99b)
+AND
+DB_IsPlayer(_character)
+AND
+Query_CharacterIsAliveAndNotInCombat(_character)
+THEN
+SetOnStage(ITEMGUID_RS3_FX_ST_MagicWall_01_Source_WithPhysics_000_7c324bf3-86ec-4af8-a4fb-51bac3906454, 1);
+EXITSECTION
+
+ENDEXITSECTION
+ParentTargetEdge "TrainingBowl"

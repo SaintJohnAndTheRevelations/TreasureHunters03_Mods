@@ -1,0 +1,16 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+
+KBSECTION
+PROC
+PROC_MoveMonsterToStartPoint((CHARACTERGUID)_monster, (TRIGGERGUID)_monsterStartPoint)
+AND
+GlobalGetFlag("MOVEDMONSTERS", 0)
+THEN
+CharacterMoveTo(_monster, (TRIGGERGUID)_monsterStartPoint, 1, "", 1);
+GlobalSetFlag("MOVEDMONSTERS");
+EXITSECTION
+
+ENDEXITSECTION
+ParentTargetEdge "TrainingBowl"
